@@ -7,7 +7,7 @@ $(document).ready(function () {
     duration: 800,
     easing: 'ease-in-out',
   });
-  
+
   // Sticky Header
   $(window).on("scroll", function () {
     $("header").toggleClass("stickyHead", $(this).scrollTop() > 30);
@@ -36,19 +36,24 @@ $(document).ready(function () {
   // Smooth scroll to anchor with 60px offset
   $(document).on('click', '.headMenu ul > li > a', function (e) {
     var href = $(this).attr('href');
+
     if (href && href.indexOf('#') === 0) {
       e.preventDefault();
+
       var $target = $(href);
       if ($target.length) {
-        var offset = 60; // offset in pixels
+        var offset = 60;
         var top = $target.offset().top - offset;
-        $('html, body').animate({ scrollTop: top }, 600);
+
+        window.scrollTo({
+          top: top,
+          behavior: "smooth" // ✅ real smooth, no speed jump
+        });
       }
     }
   });
 
-
-
+  // Slick Sliders
   $('.whyUsSlider').slick({
     dots: false,
     infinite: true,
@@ -79,7 +84,6 @@ $(document).ready(function () {
     ]
   });
 
-  
   $('.reviewSlider').slick({
     dots: false,
     infinite: true,
@@ -103,7 +107,6 @@ $(document).ready(function () {
       },
     ]
   });
-
 
   $('.appDesignSlider').slick({
     dots: true,
