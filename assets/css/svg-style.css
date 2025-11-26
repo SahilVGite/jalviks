@@ -88,7 +88,7 @@ footer{padding-block: 0.375em; background-color: #F4F4F4;}
 .testimonialSec.sv-secGap{padding-bottom: calc(var(--secGap) * 2);overflow: hidden;}
 
 .appDesignSlider .slick-track{display: flex;align-items: center;}
-.appDesignSlide.slick-center{width: 100% !important;max-width: 17vw;}
+.appDesignSlide.slick-center{width: 100% !important;max-width: 325px;}
 .appDesignSlide > *{transition: all 0.3s;}
 .appDesignSlide{margin-inline: 0.5em;}
 .appDesignSlider.slick-slider button.slick-next,.appDesignSlider.slick-slider button.slick-prev{width: 84px;height: 84px;}

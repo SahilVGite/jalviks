@@ -120,13 +120,6 @@ $(document).ready(function () {
     centerPadding: '30px',
     responsive: [
       {
-        breakpoint: 1100,
-        settings: {
-          slidesToShow: 3,
-          centerPadding: '30px',
-        }
-      },
-      {
         breakpoint: 602,
         settings: {
           slidesToShow: 2,
