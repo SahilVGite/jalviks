@@ -1,4 +1,13 @@
 $(document).ready(function () {
+  // AOS Initialize
+  AOS.init({
+    once: true,
+    mirror: false,
+    offset: 50,
+    duration: 800,
+    easing: 'ease-in-out',
+  });
+  
   // Sticky Header
   $(window).on("scroll", function () {
     $("header").toggleClass("stickyHead", $(this).scrollTop() > 30);
