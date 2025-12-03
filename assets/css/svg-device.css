@@ -46,7 +46,8 @@
     .counterInfoSec > *{width:calc(33.333% - 2.6em);}
     .ourFeatureTxt > li:not(:last-child){margin-bottom:3em;}
     .ourFeatureImg{max-width:42%;}
-    
+    .founderInfo{width:calc(48% - 1em);}
+    .aboutFounders{gap:3em;justify-content: center;}
 }
 @media (max-width:950px){
     :root{--fs-banner:28px;--fs-title:26px;--fs-30:22px;--fs-25:19px;--fs-20:16px;--fs-18:15px;--fs-body:13px;--fs-caption:12px;--secGap:50px;}
@@ -64,6 +65,8 @@
     .menuIcons,.menuIcon{display: block;}
     .slick-dots{bottom:-40px;}
     .appDesignSlide.slick-center{max-width:190px;}
+    .contactCard{width: calc(50% - 1.0625em);}
+    .videoCont{border-radius:25px;}
 }
 @media (max-width:768px){
     .ourFeatureImg{max-width:35%;}
@@ -114,7 +117,9 @@
     .appDesignSlider.slick-slider button.slick-prev{left: calc(-64px + 4.3em);}
     .appDesignSlider.slick-slider button.slick-next{right: calc(-64px + 4.3em);}
     .menuIcon,.menuClose{max-width:30px;}
-
+    .contactCard{width: 100%;}
+    .contactContent{gap:1.125em;}
+    .founderInfo{width: 100%;}
 }
 @media (max-width:500px){
     .bannerBg{width: 280%;}
@@ -122,4 +127,5 @@
 @media (max-width:400px){
     .appDesignSlide{margin-inline:1.8em;}
     .bannerBg{width: 320%;}
+    .ourIntegrationRgt, .ourIntegrationLftImg{max-width: 100%;}
 }
