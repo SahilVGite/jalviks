@@ -37,7 +37,7 @@ footer{padding-block: 2.25em; background-color: #F4F4F4;}
 .bannerBtns > a{margin: 0;gap: 0.8em;}
 .bannerBtns > a.blank{background: transparent;color: var(--Primary-color);}
 
-.aboutContent{padding-inline: 3em;}
+/* .aboutContent{padding-inline: 3em;} */
 .aboutTitle{font-size: calc(var(--fs-30) + 2px);font-family: var(--ibm-font);font-weight: var(--fw-bold);letter-spacing: 0.0625em;}
 .aboutTitle2{font-size: calc(var(--fs-25) - 3px);font-family: var(--ibm-font);color: var(--Quaternary-color);letter-spacing: 0.0625em;font-weight: var(--fw-regular);}
 .aboutTitle2 > span{font-size: calc(var(--fs-title) + 2px);color: var(--Secondary-color);font-weight: var(--fw-bold);}

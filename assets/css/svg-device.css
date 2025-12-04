@@ -19,8 +19,8 @@
     .reviewSlider.slick-slider button.slick-prev{left: calc(-48%);}
     .reviewSlider.slick-slider button.slick-next{left: calc(-48% + 70px);}
     .reviewSlider.slick-slider button.slick-prev,.reviewSlider.slick-slider button.slick-next{top:calc(100% - 115px);}
-    .appDesignSlider.slick-slider button.slick-prev{left: calc(-64px + 3.3em);}
-    .appDesignSlider.slick-slider button.slick-next{right: calc(-64px + 3.3em);}
+    .appDesignSlider.slick-slider button.slick-prev{left: calc(-64px + 0.3em);}
+    .appDesignSlider.slick-slider button.slick-next{right: calc(-64px + 0.3em);}
     .appDesignSlider.slick-slider button.slick-next,.appDesignSlider.slick-slider button.slick-prev{width:64px;height:64px;}
     .headCotent > .headRgt{gap:4em;}
     .ourFeatureImg{max-width:50%;}
@@ -32,7 +32,8 @@
     .bannerContent{gap:4em;}
     .reviewSlider.slick-slider button.slick-prev{left: calc(-52%);}
     .reviewSlider.slick-slider button.slick-next{left: calc(-52% + 70px);}
-
+    .appDesignSlider.slick-slider button.slick-prev{left: calc(-64px + 3.3em);}
+    .appDesignSlider.slick-slider button.slick-next{right: calc(-64px + 3.3em);}
 }
 @media (max-width:1100px){
     :root{--fs-banner:30px;--fs-title:28px;--fs-30:24px;--fs-25:20px;--fs-20:17px;--fs-18:16px;--fs-body:14px;--fs-caption:12px;--secGap:60px;}
@@ -67,6 +68,11 @@
     .appDesignSlide.slick-center{max-width:190px;}
     .contactCard{width: calc(50% - 1.0625em);}
     .videoCont{border-radius:25px;}
+    .ourFeatureSec .commonBtn{margin-top: 2em;}
+    .appDesignSlide{margin-inline:1.5em;}
+    .appDesignSlider{max-width:85%;margin-inline:auto;float:none;}
+    .appDesignSlider.slick-slider button.slick-prev{left: calc(-64px + 1.3em);}
+    .appDesignSlider.slick-slider button.slick-next{right: calc(-64px + 1.3em);}
 }
 @media (max-width:768px){
     .ourFeatureImg{max-width:35%;}
@@ -92,7 +98,7 @@
     .ourIntegration::before{height:75%;}
     .ourIntegrationRgt{margin-top: 0;}
     .appDesignSlider.slick-slider button.slick-next,.appDesignSlider.slick-slider button.slick-prev{width:44px;height:64px;}
-    .lastPhones{max-width:70%;}
+    .lastPhones{max-width:55%;}
     .lastSecContent{padding:3em 2em 14em 2em;}
     .counterInfoSec > *{width:calc(50% - 1em);}
     .counterInfoSec{gap:1em;}
@@ -120,12 +126,16 @@
     .contactCard{width: 100%;}
     .contactContent{gap:1.125em;}
     .founderInfo{width: 100%;}
+    .appDesignSlide{margin-inline:3.8em;}
+    .ourIntegration .secTitle, .testimonialContent .secTitle, .faqLft .secTitle{margin-left: auto;}
+    .commonTitle{text-align: center;}
 }
 @media (max-width:500px){
     .bannerBg{width: 280%;}
+    .lastPhones{max-width:70%;}
 }
 @media (max-width:400px){
-    .appDesignSlide{margin-inline:1.8em;}
+    .appDesignSlide{margin-inline:3.8em;}
     .bannerBg{width: 320%;}
     .ourIntegrationRgt, .ourIntegrationLftImg{max-width: 100%;}
 }

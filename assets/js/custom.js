@@ -115,12 +115,12 @@ $(document).ready(function () {
     slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 50000,
     centerMode: true,
     centerPadding: '30px',
     responsive: [
       {
-        breakpoint: 602,
+        breakpoint: 951,
         settings: {
           slidesToShow: 2,
           centerMode: false,
@@ -128,10 +128,11 @@ $(document).ready(function () {
         }
       },
       {
-        breakpoint: 400,
+        breakpoint: 602,
         settings: {
-          centerMode: false,
           slidesToShow: 1,
+          centerMode: false,
+          centerPadding: '0px',
         }
       },
     ]
