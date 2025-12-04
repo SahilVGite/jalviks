@@ -115,7 +115,7 @@ $(document).ready(function () {
     slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 50000,
+    autoplaySpeed: 5000,
     centerMode: true,
     centerPadding: '30px',
     responsive: [
