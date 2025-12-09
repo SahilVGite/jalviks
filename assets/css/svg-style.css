@@ -48,6 +48,7 @@ footer{padding-block: 2.25em; background-color: #F4F4F4;}
 .founderImg{max-width: clamp(130px, 15vw, 209px);border-radius: 20px;overflow: hidden;}
 .founderName{font-size: calc(var(--fs-25) - 3px);color: var(--Senary-color);font-weight: var(--fw-semi-bold);font-family: var(--ibm-font);letter-spacing: -0.0313em;}
 .founderDesc{font-size: var(--fs-body);color: var(--Senary-color);opacity: 0.7;letter-spacing: -0.0125em;}
+.linkdinIcon{max-width: 30px;margin-top: 0.5em;display: block;}
 
 .whyUsSliderCardImg{border-radius: 20px;overflow: hidden;}
 .whyUsSliderCardTitle{font-size: calc(var(--fs-25) - 3px);font-family: var(--ibm-font);font-weight: var(--fw-semi-bold);color: var(--Senary-color);letter-spacing: -0.0313em;text-align: center;text-transform: capitalize;margin-top: 0.8181em;}
@@ -96,7 +97,7 @@ footer{padding-block: 2.25em; background-color: #F4F4F4;}
 .appDesignSlider .slick-track{display: flex;align-items: center;}
 .appDesignSlide.slick-center{width: 100% !important;max-width: 325px;}
 .appDesignSlide > *{transition: all 0.3s;}
-.appDesignSlide{margin-inline: 0.5em;}
+.appDesignSlide{margin-inline: 1.3em;}
 .appDesignSlider.slick-slider button.slick-next,.appDesignSlider.slick-slider button.slick-prev{width: 84px;height: 84px;}
 .appDesignSlider.slick-slider button.slick-prev{left: calc(-84px - 1.3em);}
 .appDesignSlider.slick-slider button.slick-next{right: calc(-84px - 1.3em);}

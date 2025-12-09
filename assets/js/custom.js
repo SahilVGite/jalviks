@@ -34,7 +34,7 @@ $(document).ready(function () {
   });
 
   // Smooth scroll to anchor with 60px offset
-  $(document).on('click', '.headMenu ul > li > a', function (e) {
+  $(document).on('click', '.headMenu ul > li > a, .siteLogo > a', function (e) {
     var href = $(this).attr('href');
 
     if (href && href.indexOf('#') === 0) {
